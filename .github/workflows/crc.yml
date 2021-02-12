@@ -9,6 +9,7 @@ jobs:
     - name: Shell test 
       run: |  
         ls -al 
+        du -s
 
  
  
