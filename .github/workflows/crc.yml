@@ -3,7 +3,7 @@ on: [ push, workflow_dispatch ]
 jobs:
   shell:
     name: Shell Commands
-    runs-on: [ self-hosted, crc ]
+    runs-on: [ self-hosted, mylabel ]
     steps:
     - uses: actions/checkout@v2 
     - name: Shell test 
